@@ -1,3 +1,4 @@
+import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
@@ -9,7 +10,9 @@ public class Main {
 //
         //boolean result = new ValidParentheses().isValid("(]");
        // int result = new RemoveDuplicates().removeDuplicates(new int[]{ 1, 2, 2, 3, 3, 4, 4, 4, 5, 5, 6 } );
-        int result = new FindIndexFirstOccurrence().firstOccurrence("leetcode", "leeto");
-        System.out.println(result);
+        //int result = new FindIndexFirstOccurrence().firstOccurrence("leetcode", "leeto");
+        //int result = new SearchInsertPosition().searchInsert(new int[]{1,3,5,6}, 2);
+        //int result = new LengthLastWord().lengthOfLastWord("Hello World");
+        //System.out.println(result);
     }
 }
