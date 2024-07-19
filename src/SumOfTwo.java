@@ -1,15 +1,16 @@
+import java.util.Arrays;
 import java.util.HashMap;
 
 public class SumOfTwo {
     public int[] twoSum (int[] nums, int target) {
-        int length = nums.length;
         HashMap<Integer, Integer> map = new HashMap<>();
-        for (int i = 0; i < length; i++)
-        {
+        for(int i = 0; i < nums.length; i++) {
             int complement = target - nums[i];
-            if(map.containsKey(complement))
-            {
-                return new int[]{i, map.get(complement)};
+            if(map.containsKey(complement)) {
+                int[] value = new int[]{i, map.get(complement)};
+                Arrays.sort(value);
+                return value;
+
             }
             map.put(nums[i], i);
         }
