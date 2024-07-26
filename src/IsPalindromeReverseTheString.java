@@ -5,7 +5,6 @@ public class IsPalindromeReverseTheString {
         return reversed.toString().equals(spacesRemoved);
     }
 }
-
 //public class IsPalindromeReverseTheString {
 //    public boolean isPalindromeReverseTheString(String text) {
 //        StringBuilder reverse = new StringBuilder();
